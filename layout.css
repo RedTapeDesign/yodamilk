@@ -1,0 +1,1978 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+/* Table of Content
+==================================================
+	#Typography
+	#Generic Styles
+	#Intro
+	#Nav2
+	#Work
+	#Services
+	#Hire
+	#About
+	#Contact
+	#Media Queries
+	#Font-Face
+*/dcccccwwerwr3r32v535235v235235v 52
+
+
+/* #Typography
+================================================== */
+
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Muli\Open+Sans);
+
+	
+*{A
+
+  -webkit-font-smoothing: antialiased; // cool antialisisng for chrome,safari;
+}
+p {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	font-size: 14px;
+	font-weight: 400;
+	color:#333;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 20px;
+	font-size: 15px;
+	font-weight: 400;
+	color:#333;
+	background-color:#333333;
+	background:url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgr.png') repeat;
+}
+
+h1 {
+	font-size: 100px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 50px;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.5);
+	filter: dropshadow(color=rgba(0, 0, 0, 0.5), offx=1, offy=1);
+}
+
+h1.smallh1 {
+	font-size: 50px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+h1.smallerh1 {
+	font-size: 36px;
+	font-weight: 400;
+	line-height: normal;
+}
+
+h2 {
+
+ font-family: 'Permanent Marker', cursive;
+	font-size: 46px;
+	font-weight: 400;
+	color: #000;
+}
+
+h3 {
+	font-size: 22px;
+	 color: #333;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+}
+h4 {
+	font-size: 12px;
+	color: #333333;
+	margin-top: 20px;
+	font-family: 'Open Sans', sans-serif;
+}
+p.headline {
+	font-size: 22px;
+	text-align: center;
+	margin-bottom: 20px;
+	text-align:center;
+
+}
+
+/*Added buttons and images*/
+
+.scroll {
+	text-align:center;
+	color:#fff;
+	text-transform: uppercase;
+	-webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+   background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/scroll.png') bottom no-repeat;
+   height:68px;
+   display:block;
+   margin-top:-90px!important;
+   text-indent:-9999px;
+
+}
+.scroll:hover{
+	text-align:center;
+	padding-top:15px;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+}
+.newsocial {
+	/*background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgrsocial.png') bottom no-repeat;*/
+	width:400px;
+	 height:100px;
+   display:block;
+
+   
+}
+.newsocial img {
+	padding-left:10px;
+	padding-top:15px;
+}
+
+/* #Generic Styles
+================================================== */
+body {
+	z-index: 100;
+
+}
+
+.dotted-bar {
+	width: 100%;
+	position: relative;
+	display: none;
+}
+
+h2 img {
+	margin-bottom: 4px;
+	display: inline-block;
+}
+
+span.line {
+	background: #6f6f6f;
+	width: 358px;
+	height: 1px;
+	display: inline-block;
+	margin-bottom: 14px;
+	margin-right: 15px;
+}
+
+span.line2 {
+	background: #6f6f6f;
+	width: 358px;
+	height: 1px;
+	display: inline-block;
+	margin-bottom: 14px;
+	margin-left: 15px;
+}
+
+span.line3 {
+	background: #6f6f6f;
+	width: 330px;
+	height: 1px;
+	display: inline-block;
+	margin-bottom: 14px;
+	margin-right: 15px;
+}
+
+span.line4 {
+	background: #6f6f6f;
+	width: 330px;
+	height: 1px;
+	display: inline-block;
+	margin-bottom: 14px;
+	margin-left: 15px;
+}
+
+.dotted-bar2 {
+	width: 100%;
+	text-align: center;
+	display:none;
+}
+
+.dotted-bar2 a, .dotted-bar3 a {
+	display: inline-block;
+}
+
+.top {
+	background: url(../images/top.png) no-repeat;
+	width: 223px;
+	top: 6px;
+	position: relative;
+	margin: auto;
+	display: inline-block;
+	display:none;
+}
+
+.top:hover {
+	background-position: 0 -34px;
+}
+
+.heading {
+    text-align: left;
+    margin-top:99px;
+    position:relative;
+    z-index:100;
+	
+
+}
+
+.heading h2 {
+  	color: #fed536;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+	height:100px;
+    text-align:left;	
+
+    /*background: url(http://www.vitruvianbrew.com.php53-12.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/heading.png) top center no-repeat;*/
+}
+
+.heading h2 #what-we-do {
+	padding-bottom: 30px;
+}
+
+h3 a {
+	text-decoration: none;
+}
+h3 a:hover {
+	opacity: 0.4;
+}
+
+.article {
+	margin-bottom: 20px;
+}
+
+.article .readmore {
+	position: relative;
+	top: -10px;
+}
+
+.article .meta a {
+	color: #7F7F7F;
+	text-decoration: none;
+}
+
+.article .meta a:hover {
+	text-decoration: underline;
+}
+
+.pagination .leftpag {
+	float: left;
+}
+.pagination .rightpag {
+	float: right;
+}
+.single {
+		
+		
+}
+.single p {
+	color: #fff!important;
+}
+.single .heading h2 {
+	margin:0!important;
+	padding:0!important;
+	height:40px;
+}
+.singlemeta {
+	font-size: 18px !important;
+	display:none;
+}
+
+.single .bg, .page .bg {
+	padding: 25px 0;
+}
+
+/* #Wordpress related css
+================================================== */
+
+.wp-caption {
+	max-width: 100%;
+    border: 1px solid #DDDDDD;
+    margin-bottom: 10px;
+    padding: 6px 2px 0;
+}
+.wp-caption-text {
+    font-size: 11px;
+    padding: 0 4px 5px;
+}
+.aligncenter {
+	display:inline-block;
+	text-align:center;
+    margin: 0 auto;
+}
+.alignleft { 
+	float: left;
+	margin: 13px 10px 0px 13px; 
+}
+.alignright { 
+	float: right;
+	margin: 0px 0px 10px 10px; 
+}
+.sticky {
+	color: red;
+}
+.single-navigation {
+	position: relative;
+	z-index: 1000;
+}
+.single-navigation .prev {
+    float: left;
+}
+.single-navigation .next {
+    float: right;
+}
+.gallery-caption {
+
+}
+
+form#contactform input {
+	width: 125px;
+}
+#respond label { 
+	display: none; 
+	float: none; 
+	height:0px; 
+}
+#respond input, #respond textarea, #respond select { 
+	width: 254px; 
+	padding: 7px 13px; 
+	border: 1px solid #ddd; 
+	margin: 0px 28px 0px 0; 
+	font:12px 'Open Sans', Arial, Helvetica, sans-serif; 
+	color:#707070; 
+	line-height:20px; 
+	float:left; 
+}
+#respond textarea { 
+	width: 93% !important; 
+}
+#respond input:focus, #respond textarea:focus { 
+	border: 1px solid #000; 
+}
+#respond input { 
+	margin-bottom: 15px !important; 
+}
+#respond fieldset { 
+	padding-left:0px; 
+}
+#respond legend { 
+	padding:7px 10px; 
+	font-weight:bold; 
+	color:#000; 
+	border:1px solid #eee; 
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px; 
+	margin-bottom:0 !important; 
+	margin-bottom:20px; 
+}
+#respond span.required { 
+	padding-left:28px; 
+	background:url(images/bg-bullet.png) no-repeat 12px 5px; 
+	margin-left:-28px; 
+}
+
+#respond input#submit {
+	background-color: #FBC96B;
+	color: #444444;
+}
+
+li.comment {
+	color: #707070;
+    margin-bottom: 10px;
+    padding-left: 11px;
+    clear: both;
+}
+
+ol.commentlist {
+	margin-left: 0;
+	list-style-type: none;
+}
+
+ol.commentlist a {
+	text-decoration: none;
+	font-size: 13px;
+}
+
+ol.commentlist a:hover {
+	text-decoration: underline;
+}
+
+.commentlist .avatar {
+    float: left;
+    margin: 3px 0 0;
+}
+.commentlist .no-wrap {
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.no-wrap .meta {
+	font-size: 16px;
+	color: #000;
+}
+
+.no-wrap p {
+	margin-bottom: 12px;
+	font-size: 14px;
+}
+
+li.bypostauthor {
+
+}
+
+.tags {
+	padding: 5px 0 15px;
+}
+
+.tags a {
+    text-decoration: none;
+    padding: 3px;
+    background: lightgray;
+}
+
+#slideshow-product, .slider-product, #slider-product, .proj-img, .pic {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+#slideshow-product {
+    height: 312px;
+    margin-bottom: 20px;
+    width: 639px;
+    z-index: 99;
+}
+
+.pic {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #D2D2D2;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    padding: 3px;
+    z-index: 99;
+}
+
+.slideshow_navigation {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.slideshow_navigation a {
+    background: url("../images/slide.png") no-repeat scroll 0 -18px transparent;
+    border: 0 none;
+    color: #B22222;
+    display: inline-block;
+    height: 10px;
+    margin-right: 4px;
+    text-indent: -9999px;
+    width: 10px;
+}
+
+.slideshow_navigation a.activeSlide {
+    background-position: 0 0;
+    cursor: default;
+}
+
+.proj-img {
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.proj-img a {
+    background: url("../images/zoom.png") no-repeat scroll 50% 50% transparent;
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    top: -500px;
+    width: 100%;
+    z-index: 10;
+}
+
+.proj-img a {
+    background: url("../images/zoom.png") no-repeat scroll 50% 50% transparent;
+    display: inline-block;
+    height: 100%;
+    position: absolute;
+    top: -500px;
+    width: 100%;
+    z-index: 10;
+}
+
+.proj-img i {
+    background: none repeat scroll 0 0 #493636;
+    display: block;
+    font-style: normal;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-indent: -9000px;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+}
+
+.quote-nav-left, .quote-nav-right {
+    float: left;
+}
+
+.quote-slider {
+    margin-left: 35px;
+    max-width: 100%;
+}
+
+.panel {
+    width: 100%;
+}
+
+p.quoter {
+    color: #493636;
+    font: 700 10px 'Open Sans',Arial,Helvetica,sans-serif;
+    padding: 0 0 7px;
+    text-transform: uppercase;
+    margin-top: -13px;
+}
+
+.quote-nav-left a, .quote-nav-right a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+.quote-nav-right a {
+    background: url("../images/bg-coda-right.jpg") no-repeat scroll 0 0 transparent;
+    height: 19px;
+    margin-left: -19px;
+    margin-top: 10px;
+    padding: 0;
+    text-indent: -9000px;
+    width: 19px;
+}
+
+.quote-nav-left a {
+    background: url("../images/bg-coda-left.jpg") no-repeat scroll 0 0 transparent;
+    height: 19px;
+    margin-left: 0;
+    margin-top: 30px;
+    padding: 0;
+    text-indent: -9000px;
+    width: 19px;
+}
+
+#price {
+    width: 98%;
+}
+
+#price th {
+    border-bottom: 1px solid #DDDDDD;
+    border-right: 1px solid #DDDDDD;
+    color: #707070;
+    font: 12px/20px 'Open Sans',Arial,Helvetica,sans-serif;
+    height: 39px;
+    padding: 9px 0 4px 20px;
+    width: 148px;
+}
+
+#price th.first-column {
+    height: 44px;
+    width: 169px;
+}
+
+#price th.first-row {
+    color: #493636;
+    font: 700 14px/20px 'Open Sans',Arial,Helvetica,sans-serif;
+    padding: 13px 0 4px 20px;
+}
+
+#price .last {
+    border-right: 0 none !important;
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.twitter_small {
+	width:46px;
+	height:46px;
+	float:left;
+	margin-top: -8px;
+	background:url(../images/bg-twitter.png) no-repeat left top;
+}
+
+.twitter_small a {
+	text-indent:-9000px;
+	text-decoration:none;
+	width:46px;
+	height:46px;
+	display:block;
+}
+
+.twitter2_small {
+	width:16px;
+	height:16px;
+	float:left;
+	margin: 5px 0 15px 15px;
+	background:url(../images/bg-twitter2.png) no-repeat left top;
+}
+
+.twitter2_small a {
+	text-indent:-9000px;
+	text-decoration:none;
+	width:16px;
+	height:16px;
+	display:block;
+}
+.twitter2_small a:hover {
+	background:url(../images/bg-twitter2Hover.png) no-repeat left top;
+}
+
+.facebook_small {
+	width:16px;
+	height:16px;
+	float:left;
+	margin: 5px 0 5px 15px;
+	background:url(../images/bg-facebook.png) no-repeat left top;
+}
+
+.facebook_small a {
+	text-indent:-9000px;
+	text-decoration:none;
+	width:16px;
+	height:16px;
+	display:block;
+}
+
+.facebook_small a:hover {
+	background:url(../images/bg-facebookHover.png) no-repeat left top;
+}
+
+.dribble_small {
+	width:16px;
+	height:16px;
+	float:left;
+	margin: 5px 0 15px 15px;
+	background:url(../images/bg-dribble.png) no-repeat left top;
+}
+
+.dribble_small a {
+	text-indent:-9000px;
+	text-decoration:none;
+	width:16px;
+	height:16px;
+	display:block;
+}
+
+.dribble_small a:hover {
+	background:url(../images/bg-dribbleHover.png) no-repeat left top;
+}
+
+.flickr_small {
+	width:16px;
+	height:16px;
+	float:left;
+	margin: 5px 0 15px 15px;
+	background:url(../images/bg-flickr.png) no-repeat left top;
+}
+
+.flickr_small a {
+	text-indent:-9000px;
+	text-decoration:none;
+	width:16px;
+	height:16px;
+	display:block;
+}
+
+.flickr_small a:hover {
+	background:url(../images/bg-flickrHover.png) no-repeat left top;
+}
+
+.vimeo_small {
+	width:17px;
+	height:16px;
+	float:left;
+	margin: 5px 0 15px 15px;
+	background:url(../images/bg-vimeo.png) no-repeat left top;
+}
+
+.vimeo_small a {
+	text-indent:-9000px;
+	text-decoration:none;
+	width:17px;
+	height:16px;
+	display:block;
+}
+
+.vimeo_small a:hover {
+	background:url(../images/bg-vimeoHover.png) no-repeat left top;
+}
+
+ul.list {
+	display:block;
+	position:relative;
+	padding:0px;
+	margin-bottom:-1px;
+	list-style-type: none;
+}
+ul.float {
+	float:left;
+	width:50%;
+	list-style-type: none;
+}
+ul.list li {
+	padding:4px 0px 5px 0;
+	width:auto;
+	border-bottom:1px solid #ddd;
+}
+ul.float li {
+	margin-right:20px;
+}
+ul.bullet li {
+	padding:4px 0px 5px 21px;
+	background:url(../images/list-dot.jpg) no-repeat 1px 13px;
+}
+ul.check li {
+	padding:4px 0px 5px 21px;
+	background:url(../images/list-check.png) no-repeat 1px 11px;
+}
+
+
+/* #Intro
+================================================== */
+
+.top-bar {
+	width: 100%;
+	position: fixed;
+	display:none;
+}
+
+#intro {
+	width: 100%;
+	height: 124px;
+	text-align: center;
+}
+
+#intro .bg1 {
+	margin: 0 auto;
+	position: absolute;
+	width: 100%;
+}
+.bg1 {
+	
+
+}
+
+nav {
+font-family: 'Muli', sans-serif;
+background:url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/nav1.png') repeat-x;
+font-weight:bold;
+	text-align: center;
+	margin:0 auto;
+	position: fixed;
+	width: 100%;
+	z-index: 500;
+	display:block;
+
+}
+nav img {
+	margin-top:-15px;
+	margin-bottom:10px;
+	float:left;
+}
+nav a {
+	padding: 2px 2px 2px 2px;
+	background:#000;
+	font-size: 20px;
+	color: #ad2e95;
+font-family: 'Muli', sans-serif;
+	text-decoration: none;
+	display:inline-block;
+	text-transform: uppercase;
+	
+	-webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: color;
+	-moz-transition-property: color;
+	-o-transition-property: color;
+	transition-property: color;
+}
+
+nav a:visited {
+	
+}
+
+nav a:hover {
+	text-decoration: none;
+	color:#fff!important;
+}
+
+nav ul li {
+	display: inline;
+	margin-left: -2px;
+	margin-right: -2px;
+	padding: 5px 25px 25px 25px;
+	position: relative;
+}
+
+span.logo {
+	 background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/logo.png') center no-repeat;
+	width: 120px;
+	height: 94px;
+	display: inline-block;
+	position: relative;
+	margin: 0 20px 0 20px;
+	top:30px;
+	
+}
+
+span.logotext {
+	font-family: 'Marck Script', cursive;
+	font-size: 50px;
+	color: #fff;
+	position: relative;
+	display:none;
+}
+
+
+.title {
+	display:inline-block;
+	font-size: 20px;
+	color: #333;
+	-webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: color;
+	-moz-transition-property: color;
+	-o-transition-property: color;
+	transition-property: color;
+}
+.title:hover {
+	color:#b5319b;
+}
+.soc {
+	opacity:1;
+	-webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+.soc:hover{
+	opacity:0.5;
+	-webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+}
+.social {
+	display:none;
+}
+
+.social ul li {
+	display: block;
+}
+
+.facebook {
+	background: url(../images/icn-facebook.png) no-repeat 0 0;
+	width: 50px;
+	height: 51px;
+	display: inline-block;
+}
+
+.twitter {
+	background: url(../images/icn-twitter.png) no-repeat 0 0;
+	width: 50px;
+	height: 51px;
+	display: inline-block;
+}
+
+.gplus {
+	background: url(../images/icn-gplus.png) no-repeat 0 0;
+	width: 50px;
+	height: 51px;
+	display: inline-block;
+}
+
+.dribbble {
+	background: url(../images/icn-dribbble.png) no-repeat 0 0;
+	width: 51px;
+	height: 51px;
+	display: inline-block;
+}
+
+.linkedin {
+	background: url(../images/icn-linkedin.png) no-repeat 0 0;
+	width: 51px;
+	height: 51px;
+	display: inline-block;
+}
+
+.sprite {
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+	-o-transition-duration: 0.2s;
+	transition-duration: 0.2s;
+	-webkit-transition-property: background-position;
+	-moz-transition-property: background-position;
+	-o-transition-property: background-position;
+	transition-property: background-position;
+}
+
+.sprite:hover {
+	background-position: 0 -52px;
+}
+
+
+
+/* #Nav2
+================================================== */
+
+.nav2 {
+	background: #333333;
+	width: 100%;
+	height: auto;
+	margin-top: -34px;
+	text-align: center;
+	position: relative;
+	display:none;
+}
+
+.nav2 ul {
+	margin-bottom: 10px;
+}
+
+.nav2.is-sticky {
+   display:none;
+}
+
+.sticky-wrapper {
+    margin-top: -85px;
+}
+
+.nav2 a {
+	color: #fff;
+	font: 14px/21px "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0 18px 0 18px;
+	padding-top: 8px;
+	display: none;
+	
+	-webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: color;
+	-moz-transition-property: color;
+	-o-transition-property: color;
+	transition-property: color;
+}
+
+.nav2 a:visited {
+	color: #fff;
+}
+
+.nav2 a:hover {
+	color:#333!important;
+	
+}
+
+.nav2 ul li {
+	display: inline;
+	
+}
+
+
+
+/* #Custom pages
+================================================== */
+
+#store-3 {
+	position:relative;
+	opacity:0;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease;
+}
+
+#store-3 .heading {
+	background:url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/tour.png') left no-repeat;
+	background-size:cover;
+	text-indent: -9999px;
+	}
+#store-3 .trackable_sharing {
+	float:right;
+	padding:10px;
+	background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgrsoc2.png') center no-repeat;
+	background-size: 100%;
+	width: 204px;
+	height: 110px;
+	margin-top:50px;
+	-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+#store-3 .trackable_sharing:hover {
+	background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgrsoc23.png') center no-repeat;
+	background-size: 100%;
+	width: 204px;
+	height: 110px;
+	margin-top:50px;
+	}
+#store-3 .trackable_sharing img {
+	float: right;
+	margin:20px 40px 0 -10px;
+
+}
+.bc-plugin-products{
+	float:left;width:100%;margin-left:-5px;
+} 
+.bc-plugin-products .bc-plugin-product{
+	float:left;margin-left:5px;
+}
+#home {
+	background:url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/home.png') center no-repeat;
+	background-position:cover;
+	min-height:800px;
+	margin-top:-40px;
+	
+}
+#homeleft {
+	margin-left: -30px;
+	position:relative;
+	 background: rgb(26, 26, 26); /* The Fallback */
+   background: rgba(26, 26, 26, 0.4); 
+   padding:25px 10px 5px 10px;
+   margin-top:90px;
+   
+}
+#homeleft .meteor-clip {
+}
+
+#home .trackable_sharing {
+	display:none;
+
+}
+.trackable_sharing {
+	float:right;
+	position:relative;
+}
+#tour {
+	position:relative;
+	opacity:0;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease;
+}
+#bit-events tr.bit-header a, #bit-events tr.bit-header-narrow a {
+float: none;
+font-weight: normal;
+color: #000;
+}
+#about {
+	position:relative;
+	opacity:0;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease;
+
+}
+#tour .heading {
+	background:url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/tour.png') left no-repeat;
+	background-size:cover;
+	text-indent: -9999px;
+	}
+#tour .trackable_sharing {
+	float:right;
+	padding:10px;
+	background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgrsoc2.png') center no-repeat;
+	background-size: 100%;
+	width: 204px;
+	height: 110px;
+	margin-top: -33px;
+	-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+#tour .trackable_sharing:hover {
+	background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgrsoc23.png') center no-repeat;
+	background-size: 100%;
+	width: 204px;
+	height: 110px;
+	margin-top: -33px;
+	}
+#tour .trackable_sharing img {
+	float: right;
+	margin:20px 40px 0 -10px;
+}
+#home .heading {
+	display:none;
+
+}
+#news {
+position:relative;
+opacity:0;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease;
+
+}
+
+#contact-2 {
+	background:#97b8b1;
+	background-attachment: fixed;
+	border-top:4px solid #e5dac5;
+	position:relative;
+opacity:0;
+-moz-transition: all 1s ease 0s;
+-webkit-transition: all 1s ease;
+}
+#contact-2 p{
+		color:#fff;
+}
+#contact-2 h2{
+color:#fff;
+}
+#contact-2 h2:before {
+	content:url('http://www.vitruvianbrew.com.php53-12.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/line3.png');
+	padding-right:16px;
+}
+#contact-2 h2:after {
+	content:url('http://www.vitruvianbrew.com.php53-12.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/line3.png');
+	padding-left:16px;
+}
+#news .heading {
+	background:url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/news.png') left no-repeat;
+	background-size:cover;
+	text-indent: -9999px;
+}
+#news .trackable_sharing {
+	float:right;
+	padding:10px;
+	background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgrsocial.png') center no-repeat;
+	background-size: 100%;
+	width: 204px;
+	height: 110px;
+	margin-top: -33px;
+	-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+#news .trackable_sharing:hover {
+	background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgrsoc.png') center no-repeat;
+	background-size: 100%;
+	width: 204px;
+	height: 110px;
+	margin-top: -33px;
+}
+#news .trackable_sharing img {
+	float: right;
+	margin:20px 40px 0 -10px;
+	
+}
+.imac {
+	background: url(../images/imac.png);
+	width: 459px;
+	height: 349px;
+	position: relative;
+}
+
+.portfolio h3 {
+	margin-top: 40px;
+}
+
+
+.portfolio img {
+	-webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: -webkit-box-shadow;
+	-moz-transition-property: -moz-box-shadow;
+	-o-transition-property: -o-box-shadow;
+	transition-property: box-shadow;
+}
+
+.portfolio img:hover {
+	-webkit-box-shadow:  0px 0px 0px 4px #fcd996;
+	box-shadow:  0px 0px 0px 4px #fcd996;
+}
+
+p.proj-name {
+	border-bottom: 1px solid #bebebe;
+	padding-bottom: 2px;
+	margin-bottom: 0;
+	color: #363636;
+}
+
+p.proj-desc {
+	line-height: normal;
+	font-size: 13px;
+	margin-top: 6px;
+	margin-bottom: 35px;
+	color: #696969;
+}
+
+
+
+/* #Services
+================================================== */
+
+#servicesq {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	z-index: 300;
+	padding: 90px 0 70px 0;
+	text-align: center;
+}
+
+img.serv-icon {
+	-webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+	-o-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+}
+
+img.serv-icon:hover {
+	opacity: 0.7;
+} 
+
+p.serv {
+	font-size: 14px;
+	margin-top: 20px;
+	color: #6d6d6d;
+}
+
+
+
+/* #Testimonials
+================================================== */
+
+.bg {
+	position: relative;
+	z-index: 300;
+}
+
+.testimonial {
+	background: url(../images/bg.png) repeat;
+	position: relative;
+	padding-bottom: 30px;
+	z-index: 300;
+}
+
+.testimonial p {
+	font-size: 20px;
+	text-align: center;
+	font-style: italic;
+	border-top: 1px solid #bfbfbf;
+	border-bottom: 1px solid #bfbfbf;
+	padding: 15px 0 15px 0;
+}
+
+
+/* #Hire
+================================================== */
+
+.hire {
+	background: url(../images/bg.png) repeat;
+	text-align: center;
+	position: relative;
+	z-index: 300;
+	padding-bottom: 50px;
+	margin: auto;
+}
+
+
+/* #About
+================================================== */
+
+#about {
+	position: relative;
+	z-index: 300;
+	padding: 10px;
+
+}
+.yellow {
+background:#fed536;
+	min-height:400px;
+	margin-top: -79px;
+	 /*transition: box-shadow 0.3s linear 0s;
+	 -webkit-transition: box-shadow 0.4s linear 0s;
+	 -moz-transition: box-shadow 0.4s linear 0s;
+	 -o-transition: box-shadow 0.4s linear 0s;*/
+}
+.blackborder {
+	position:relative;
+
+}
+.blackborder:before {
+	z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 25px;
+left: 10px;
+width: 100%;
+top: 25px;
+  background:#000;
+  -moz-box-shadow: -30px -30px  0px 30px #000000;
+-webkit-box-shadow: -30px -30px  0px 30px #000000;
+box-shadow: -30px -30px  0px 30px #000000;
+  -webkit-transform: rotate(-4deg);
+  -moz-transform: rotate(-4deg);
+  -o-transform: rotate(-4deg);
+  -ms-transform: rotate(-4deg);
+  transform: rotate(-4deg);
+  opacity:0;
+	-moz-transition: all 1s ease 0s;
+	-webkit-transition: all 1s ease; 
+ 
+}
+.blackborder:hover:before {
+	opacity:1;
+
+}
+/*.yellow:hover {
+-moz-box-shadow: -36px -33px  0px 10px #000000;
+-webkit-box-shadow: -36px -33px  0px 10px #000000;
+box-shadow: -36px -33px  0px 10px #000000;*/
+
+}
+iframe {
+
+ transition: box-shadow 0.3s linear 0s;
+ -webkit-transition: box-shadow 0.3s linear 0s;
+ -moz-transition: box-shadow 0.3s linear 0s;
+ -o-transition: box-shadow 0.3s linear 0s;
+}
+iframe:hover {
+	-moz-box-shadow: -36px -33px  0px 10px #000000;
+-webkit-box-shadow: -36px -33px  0px 10px #000000;
+box-shadow: -36px -33px  0px 10px #000000;
+}
+#about .heading {
+	color:#fff;
+	background:url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/about1.png') left no-repeat;
+	background-size:cover;
+	text-indent: -9999px;
+}
+#about .trackable_sharing {
+	float:right;
+	padding:10px;
+	background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgrsocial.png') center no-repeat;
+	background-size: 100%;
+	width: 204px;
+	height: 110px;
+	margin-top: -33px;
+	-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    }
+#about .trackable_sharing:hover {
+	background: url('http://www.michelledelamor.com.php53-6.dfw1-1.websitetestlink.com/wp-content/themes/ViewPoint/images/bgrsoc.png') center no-repeat;
+	background-size: 100%;
+	width: 204px;
+	height: 110px;
+	margin-top: -33px;
+}
+#about .trackable_sharing img {
+	margin-left:-10px;
+	margin-top:20px;
+	float: right;
+	margin-right: 40px;
+
+
+}
+
+.last_tweets {
+	background: url(../images/dotted-bg2.png) repeat;
+	padding: 20px;
+}
+
+#twitter_update_list {
+	font-size: 13px;
+	color: #585757;
+}
+
+#twitter_update_list a {
+	color: #7b7b7b;
+	text-decoration: none;
+}
+
+#twitter_update_list a:visited {
+	color: #7b7b7b;
+}
+
+#twitter_update_list a:hover {
+	text-decoration: underline;
+}
+
+#twitter_update_list li {
+	list-style-type: none;
+	margin-bottom: 15px;
+}
+
+
+.experience p {
+	margin-bottom: 2px;
+}
+
+p.line2nd {
+	font-size: 13px;
+	line-height: normal;
+	color: #7f7f7f;
+	margin-bottom: 8px;
+}
+
+.skill-bg {
+	background: #e7e7e7;
+	width: 100%;
+	height: 25px;
+	
+	-webkit-transition-duration: 0.3s;
+    -moz-transition-duration: 0.3s;
+	-o-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	transition-property: opacity;
+}
+
+.skill-bg:hover {
+	opacity: 0.8;
+}
+
+.skills p {
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #646464;
+	margin-bottom: 5px;
+}
+
+.skill {
+	background: #4f4f4f;
+	height: 25px;
+}
+
+/*Effects*/
+
+.push-left {
+	  position: relative;
+      padding: 10px;
+      opacity: 0;
+      margin: 10px;
+    -moz-transition: all 1s ease 0s;
+    -webkit-transition: all 1s ease;
+    }
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+	-moz-animation-delay: 0.1s;	
+	-o-animation-delay: 0.1s;
+}
+.shake {
+	-webkit-animation-name: shake;
+	-moz-animation-name: shake;
+	-o-animation-name: shake;
+	animation-name: shake;
+		animation-delay: 5s;
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;	
+	-o-animation-delay: 5s;
+	-webkit-animation-duration: 3s;
+	-webkit-animation-iteration-count: 1;
+	-moz-animation-iteration-count: 1;
+	-o-animation-iteration-count: 1;
+}
+.fadeInLeftBig {
+	animation-delay: 10s;
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;	
+	-o-animation-delay: 10s;
+}
+.bounceInDown {
+		-webkit-animation-delay: 0.2s;
+	-moz-animation-delay: 0.2s;	
+	-o-animation-delay: 0.2s;
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 5s;
+	-o-animation-duration: 5s;
+}
+/*Hovers*/
+
+/* #Contact
+================================================== */
+
+#contact {
+	width: 100%;
+	height: 650px;
+	position: relative;
+	z-index: 300;
+}
+
+#contact .bg2 {
+	background: url(../images/intro-bg.jpg) 0 0 repeat fixed;
+	background-size: cover;
+	/*background: url(../images/intro-bg2.jpg) 0 0 repeat fixed;*/ /*Background 2*/
+	/*background: url(../images/intro-bg3.jpg) 0 0 repeat fixed;*/ /*Background 3*/
+	margin: 0 auto;
+	padding: 0;
+	position: absolute;
+	z-index: 200;
+	width: 100%;
+	height: 750px;
+}
+.dotted-bar3 {
+	
+	width: 100%;
+	height: 44px;
+	position: absolute;
+	z-index: 300;
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+.top2 {
+	background: url(../images/top2.png) no-repeat;
+	width: 223px;
+	height: 34px;
+	top: 6px;
+	position: relative;
+	margin: auto;
+	display: inline-block;
+}
+
+.top2:hover {
+	background-position: 0 -34px;
+}
+
+
+#contact h2 {
+	color: #fff;
+	margin-top: 170px;
+	position: relative;
+	z-index: 300;
+}
+
+#contact span.line, #contact span.line2 {
+	background: #fff;
+	width: 320px;
+}
+
+#contact span.line2 {
+	margin-left: 15px;
+}
+
+#contact p.headline {
+	color: #fff;
+	position: relative;
+	z-index: 300;
+}
+
+
+/* contact form */
+
+.done {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 14px;
+	margin-bottom: 15px;
+	padding: 10px;
+	display: none;
+}
+
+.contact-form {
+	position: relative;
+	z-index: 300;
+}
+
+.contact-form p {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-bottom: 2px;
+}
+
+.contact-form input {
+	background: url(../images/cf-bg.png) repeat;
+	width: 98%;
+	height: 18px;
+	margin-bottom: 10px;
+	padding-left: 4px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #fff;
+	border: 0;
+}
+
+.contact-form textarea {
+	background: url(../images/cf-bg.png) repeat;
+	margin-bottom: 10px;
+	padding-left: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color: #fff;
+	width: 98%;
+	height: 125px;
+	border: 0;
+}
+
+.contact-form input.submit-button {
+	background:  url(../images/bgrwood-tall.jpg) 0 0 no-repeat;
+	width: 220px;
+	  color: #444;
+	  display: inline-block;
+	  font-size: 15px;
+	  font-weight: 400;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  text-shadow: 0 1px rgba(255, 255, 255, .75);
+	  cursor: pointer;
+	  margin-bottom: 20px;
+	  line-height: normal;
+	  padding: 8px 10px;
+	  font-family: 'Bebas', sans-serif; }
+
+
+.contact-form input.submit-button:hover {
+		background:  url(../images/bgrwood-tall.jpg) 0 0 no-repeat;
+	width: 220px;
+	  color: #444;
+	  display: inline-block;
+	  font-size: 15px;
+	  font-weight: 400;
+	  text-transform: uppercase;
+	  text-decoration: none;
+	  text-shadow: 0 1px rgba(255, 255, 255, .75);
+	  cursor: pointer;
+	  margin-bottom: 20px;
+	  line-height: normal;
+	  padding: 8px 10px;
+	  font-family: 'Bebas', sans-serif; }
+
+
+.map {
+	margin-top: 26px;
+	width: 100%;
+	border: 4px solid #333333;
+	position: relative;
+	z-index: 300;
+}
+
+.contact-info {
+	position: relative;
+	z-index: 300;
+}
+
+.contact-info {
+	margin-top: 20px;
+}
+
+.contact-info p {
+	margin-bottom: 5px;
+	line-height: 25px;
+	color: #fff;
+	font-size: 14px;
+}
+
+.contact-info img {
+	margin-left: 6px;
+	margin-right: 10px;
+	vertical-align: middle;
+}
+
+
+.copyright {
+	
+	text-align: center;
+	position: relative;
+	z-index: 300;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 10px 0 10px 0;
+}
+
+.copyright p, .copyright a {
+	color: #e4e4e4;
+	font-size: 11px;
+	margin-bottom: 0;
+}
+ul.slposts-ulist-excerpt {
+	font-size:18px;
+}
+
+/* #Media Queries
+================================================== */
+
+
+}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+	
+	.bg {
+	border:none;
+	}
+		.top-bar, nav, .title {
+			position: relative;
+		}
+		
+		nav {
+			margin: 0;
+			
+		}
+		
+		.title {
+			margin-top: 50px;
+		}
+	
+	
+		span.line, span.line2, span.line3, span.line4 {
+			display: none;
+		}
+		
+		.featured-item {
+			display: none;
+		}
+		
+		.rslides {
+			position: relative;
+			list-style: none;
+			overflow: hidden;
+			width: 100%;
+			padding: 0;
+
+			top: 0;
+		}
+		
+		.rslides li {
+			position: absolute;
+			display: none;
+			width: 100%;
+			left: 0;
+			top: 0;
+		}
+
+		
+	}
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 960px) {
+	
+	.bg {
+	border-left: none;
+	
+		}
+		h1.smallerh1 {
+			font-size: 26px;
+			font-weight: 400;
+			line-height: normal;
+		}
+		#respond input, #respond textarea, #respond select {
+			width: 190px;
+		}
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+	@media only screen and (max-width: 767px) {
+
+		h2 {
+			font-size: 30px;
+		}
+		
+		h1 {
+			font-size: 80px;
+		}
+		
+		h1.smallh1 {
+			font-size: 40px;
+			font-weight: 600;
+			margin-bottom: 8px;
+		}
+
+		h1.smallerh1 {
+			font-size: 30px;
+			font-weight: 400;
+			line-height: normal;
+		}
+		
+		
+		.nav2 a {
+			padding: 0 8px 0 8px;
+			display:none;
+		}
+		
+		
+		.portfolio {
+			text-align: center;
+		}
+		
+		
+		.experience h3 {
+			margin-top: 40px;
+		}
+		
+		.skills h3 {
+			margin-top: 40px;
+		}
+		
+		
+		#contact .bg2 {
+			height: 1130px;
+		}
+		
+		
+	}
+
+
+/* Tablet  Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+	.bg {
+	border:none;
+
+	}
+	}
+		
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	
+		.title {
+			margin-top: 100px;
+		}
+	
+		span.logo {
+			display: none;
+		}
+
+		nav ul li {
+			line-height: 45px;
+		}
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		
+
+	
+		
+		
+	#products div.product {
+		float: left;
+		display: inline;
+		width: 175px;
+		height: 100%;
+		margin-left: 0;
+	}
+
+	iframe {
+		width: 400px;
+		position: relative;
+		display: inline;
+		height: 800px;
+
+
+}
+
+		.yellow {
+			min-height:620px;
+			padding:20px;
+		}
+		#news .yellow {
+			min-height:850px;
+		}
+		#news .trackable_sharing {
+			margin-top:-51px;
+		}
+		.yellow img{
+			
+			height:auto;
+		}
+		nav {
+			padding-top: 25px;
+		}
+		
+		nav a {
+			padding: 2px 2px 2px 2px;
+			background:none;
+			color:#000;
+		}
+		#homeleft {
+			margin-left:0;
+			background:none;
+			top:250px;
+			width:50%;
+			height:auto;
+		}
+		
+		span.logo {
+			display: none;
+		}
+
+		nav ul li {
+			line-height: 45px;
+		}
+		
+		#intro {
+		
+		}
+		
+		.title {
+			margin-top: 30px;
+		}
+		
+		h1 {
+			font-size: 40px;
+			margin-bottom: 8px;
+		}
+		
+		h1.smallh1 {
+			font-size: 30px;
+			font-weight: 600;
+			margin-bottom: 8px;
+		}
+
+		h1.smallerh1 {
+			font-size: 20px;
+			font-weight: 400;
+			line-height: normal;
+			margin-bottom: 20px;
+		}
+
+		
+		.social ul li {
+			display: inline;
+			margin: 0 3px 0 3px;
+		}
+		
+		.nav2 a {
+			padding: 8px 10px 0 10px;
+			display: none;
+		}
+	}
+
+
+/* #Font-Face
+================================================== */
+/* 	This is the proper syntax for an @font-face file
+		Just create a "fonts" folder at the root,
+		copy your FontName into code below and remove
+		comment brackets */
+
+/* Generated by Font Squirrel (http://www.fontsquirrel.com) on September 14, 2012 05:01:09 PM America/New_York */
+
+
+}
